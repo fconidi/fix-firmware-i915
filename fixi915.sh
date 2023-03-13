@@ -8,7 +8,7 @@
 sudo apt update; sudo apt install -y wget curl lynx
 
 # folder creation
-mkdir i915; cd i915
+mkdir /home/$USER/i915; cd /home/$USER/i915
 
 # Download the web page and use lynx to extract the HTTP/HTTPS links
 
