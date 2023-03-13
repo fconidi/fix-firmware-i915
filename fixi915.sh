@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Source: https://francoconidi.it
+# Source: https://francoconidi.it/fix-error-possible-missing/
 # Source: https://syslinuxos.com
 
 # Install curl, wget, lynx
