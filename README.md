@@ -1,4 +1,4 @@
-# fix-firmware-i915
+# Fix-firmware-i915
 # Fix error "Possible missing firmware /lib/firmware/i915 " on Debian, SysLinuxOS and others Linux distro.
 # All warnings displayed are related to missing firmware for the following Intel microarchitectures:
 # Sky Lake
