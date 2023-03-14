@@ -59,5 +59,8 @@ echo "The check has been completed."
 # Update initramfs
 sudo update-initramfs -u
 
+# remove folder1 i915
+rm -rf /home/$USER/i915/
+
 echo "Fix missing firmware has been completed."
 
