@@ -12,7 +12,7 @@ mkdir /home/$USER/i915; cd /home/$USER/i915
 
 # Download the web page and use lynx to extract the HTTP/HTTPS links
 
-lynx -dump "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/i915/" | grep -o 'https\?://[^ ]*\.bin' > /home/$USER//i915/links.txt
+lynx -dump "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/i915/" | grep -o 'https\?://[^ ]*\.bin' > /home/$USER/i915/links.txt
 
 # Download the .bin files from the list of links
 while read -r line
